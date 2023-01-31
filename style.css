@@ -1,4 +1,3 @@
-
 .jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
@@ -10,4 +9,8 @@
 
 section {
     padding-top: 5rem;
+}
+
+.tombol:hover {
+    background-color: cornflowerblue;
 }
