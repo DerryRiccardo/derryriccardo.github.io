@@ -11,6 +11,6 @@ section {
     padding-top: 5rem;
 }
 
-.tombol:hover {
+.btn-kirim:hover {
     background-color: cornflowerblue;
 }
