@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -44,7 +45,7 @@
     <section class="jumbotron text-center">
         <img src="img/foto.png" alt="Derry Riccardo" width="200" class="rounded-circle img-thumbnail">
         <h1 class="display-4">Derry Riccardo</h1>
-        <p class="lead">Student | Programmer</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,128L48,149.3C96,171,192,213,288,202.7C384,192,480,128,576,122.7C672,117,768,171,864,176C960,181,1056,139,1152,128C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -63,11 +64,11 @@
             </div>
 
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis omnis laboriosam nobis in
                         consequatur provident voluptates eaque vitae voluptatem eius.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit magnam nobis
                         delectus odit, laboriosam voluptates, ratione eaque unde, sed cum sequi minima sapiente
                         accusamus.</p>
@@ -93,7 +94,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -102,7 +103,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -111,7 +112,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -120,7 +121,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/4..jpg" class="card-img-top" alt="Project 4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -129,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -139,6 +140,41 @@
                 </div>
             </div>
         </div>
+
+        <section id="my-keyboards">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>My Keyboards</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="keyboard-box">
+                            <h4 class="keyboard-name">Keyboard 1</h4>
+                            <img src="/img/keyboard/key3.png" alt="Keyboard 1" class="keyboard-img">
+                            <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="keyboard-box">
+                            <h4 class="keyboard-name">Keyboard 2</h4>
+                            <img src="/img/keyboard/key2.png" alt="Keyboard 2" class="keyboard-img">
+                            <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="keyboard-box">
+                            <h4 class="keyboard-name">Keyboard 3</h4>
+                            <img src="/img/keyboard/key1.png" alt="Keyboard 3" class="keyboard-img">
+                            <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,64L40,90.7C80,117,160,171,240,165.3C320,160,400,96,480,106.7C560,117,640,203,720,224C800,245,880,203,960,186.7C1040,171,1120,181,1200,160C1280,139,1360,85,1400,58.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
@@ -146,6 +182,71 @@
         </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f1.png" alt="Gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f2.png" alt="Gambar 2" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f3.png" alt="Gambar 3" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f4.png" alt="Gambar 4" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f5.png" alt="Gambar 5" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f6.png" alt="Gambar 6" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f7.png" alt="Gambar 7" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f8.png" alt="Gambar 8" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f9.png" alt="Gambar 9" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/thumbnails/f10.png" alt="Gambar 10" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -217,6 +318,32 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        })
+
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Student | Programmer' });
+        gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+        gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+        gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
+
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzfTr4MrkHl3wZ6QVeJFj0MAiqPefZ6QEQ_u8tXsYkCCjN0QOiUmyKzhfDt57W_iHOY/exec'
         const form = document.forms['derry-contact-form']
@@ -242,6 +369,15 @@
                     console.log('Success!', response)
                 })
                 .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+            max: 35,
+            speed: 1000,
+            glare: true,
         });
     </script>
 </body>
