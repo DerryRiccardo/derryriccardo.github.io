@@ -111,3 +111,7 @@ section {
 .keyboard-box:hover .keyboard-img {
     transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
 }
+
+#gallery {
+    background-color: #e2edff;
+}
